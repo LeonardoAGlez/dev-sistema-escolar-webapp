@@ -16,7 +16,7 @@ export class GraficasScreenComponent implements OnInit {
   public token: string = '';
 
   private readonly roleLabels = ['Administradores', 'Maestros', 'Alumnos'];
-  private readonly roleColors = ['#1f395c', '#2b5082', '#447fce'];
+  private readonly roleColors = ['#f61aa6ff', '#ac3aeaff', '#38a9ffff'];
 
   //Barras
   barChartData = {
